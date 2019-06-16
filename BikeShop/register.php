@@ -27,6 +27,9 @@
           <?php include('errors.php'); ?>
           <div class="form-group">
             <div class="form-row">
+                <div class="col-md-12">
+                    <label>Currently not working!</label>
+                </div>
               <div class="col-md-12">
                 <label for="exampleInputName">Username</label>
                 <input class="form-control" id="exampleInputName" type="text"   name="username" value="<?php echo $username; ?>" >

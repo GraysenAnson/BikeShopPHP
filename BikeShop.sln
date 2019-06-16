@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "BikeShop", "..\..\..\..\..\..\Users\zones\Desktop\C# MVC Programming\BikeShopPHP\BikeShop\BikeShop\BikeShop.phpproj", "{E86F3F31-C78F-4EE0-B0F2-9C068072591E}"
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "BikeShop", "BikeShop\BikeShop.phpproj", "{E86F3F31-C78F-4EE0-B0F2-9C068072591E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E333C690-0AEF-4922-89FF-A7258E985163}"
+	ProjectSection(SolutionItems) = preProject
+		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

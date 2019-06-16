@@ -1,4 +1,3 @@
-
 <?php
 include('navbar.php');
 include('pserver.php'); 
@@ -41,7 +40,9 @@ include('pserver.php');
          <div class="col-md-8">
             
 <form method="post" action="product.php">
-
+    <div class="col-md-12">
+        <label>Currently not working!</label>
+    </div>
   <div class="form-group">
     <label>Product Name</label>
     <input type="text" class="form-control" name="pname" required>
