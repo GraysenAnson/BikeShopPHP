@@ -18,8 +18,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="errors.php" />
-    <Compile Include="extension.php" />
-    <Compile Include="db_connection.php" />
     <Compile Include="index.php" />
     <Compile Include="login.php" />
     <Compile Include="product.php" />
@@ -33,17 +31,18 @@
     <Content Include="css\sb-admin.css" />
     <Content Include="css\sb-admin.min.css" />
     <Content Include="gulpfile.js" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\LadyImage.jpg" />
+    <Content Include="images\LBike.jpg" />
     <Content Include="js\demo\chart-area-demo.js" />
     <Content Include="js\demo\chart-bar-demo.js" />
     <Content Include="js\demo\chart-pie-demo.js" />
     <Content Include="js\demo\datatables-demo.js" />
     <Content Include="js\sb-admin.js" />
     <Content Include="js\sb-admin.min.js" />
-    <Content Include="LICENSE" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="packages.config" />
-    <Content Include="README.md" />
     <Content Include="scss\sb-admin.scss" />
     <Content Include="scss\_cards.scss" />
     <Content Include="scss\_footer.scss" />
@@ -1793,6 +1792,7 @@
     <Folder Include="css\" />
     <Folder Include="js\" />
     <Folder Include="js\demo\" />
+    <Folder Include="images\" />
     <Folder Include="scss\" />
     <Folder Include="vendor\" />
     <Folder Include="vendor\bootstrap\" />

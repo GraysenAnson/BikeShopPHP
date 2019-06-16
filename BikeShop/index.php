@@ -93,6 +93,12 @@
         </li>
         <li class="breadcrumb-item active">My Dashboard</li>
       </ol>
+		<!-- Images-->
+		<div>
+			<img src="images/LBike.jpg" width="500" height="400" title="Bike" alt="Image of a bike" >
+			<img src="images/LadyImage.jpg" width="500" height="400" title="Lady on a bike" alt="Lady on a bike" >
+			<img src="images/images.jpg" width="600" height="400" title="Another Bike" alt="Another Bike" />
+		</div>
 
       <!-- Example DataTables Card-->
       <div class="card mb-3">
@@ -120,7 +126,7 @@ $dbname = "production";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-$sql = 'SELECT * from products where product_id > 0 AND product_id < 11';
+$sql = 'SELECT * from products where product_id > 0 AND product_id < 151';
 if (mysqli_query($conn, $sql)) {
 echo "";
 } else {
@@ -143,7 +149,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
                               <?php echo $row['model_year']; ?>
                               </td>
                               <td>
-                              <?php echo $row['list_price']; ?>
+                              <?php echo '$', $row['list_price']; ?>
                               </td>
                            </tr>
                         </tbody>
